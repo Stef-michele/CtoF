@@ -14,7 +14,7 @@ public class CtoFConverter {
             if(in.hasNextDouble()) {
                 celcius = in.nextDouble();
                 in.nextLine(); //clears buffer
-                //converting teperature
+                //converting temperature
                 fahrenheit = (celcius * 9 / 5) + 32;
                 System.out.println("Equivalent temperature in Fahrenheit is: " + fahrenheit);
                 done = true; //finish loop
